@@ -1,0 +1,48 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+@mixin sizes($width, $height) {
+    height: $height;
+    width: $width;
+    
+}
+$map:(
+    color:white,
+    altura: 100%,
+    ancho: 100%,
+);
+
+
+.index{
+    background-image:url(../media/wallpaperbetter.jpg);
+    @include sizes(100%,1200px);
+    background-size: 100%;
+    background-size: cover;
+    opacity: 80%;
+}
+
+
+.animate__fadeInLeft{
+    text-align: center;
+    color:map-get($map: $map, $key: color );
+    height: map-get($map: $map, $key: altura);
+    width: map-get($map: $map, $key: ancho );
+    opacity: 100%;
+   }
+    
+
+.galeria{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e9bbaa;
+    gap: 40px;
+}
+
+.icono{
+  justify-content: center;
+}

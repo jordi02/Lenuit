@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.index {
+  background-image: url(../media/wallpaperbetter.jpg);
+  height: 1200px;
+  width: 100%;
+  background-size: 100%;
+  background-size: cover;
+  opacity: 80%;
+}
+
+.animate__fadeInLeft {
+  text-align: center;
+  color: white;
+  height: 100%;
+  width: 100%;
+  opacity: 100%;
+}
+
+.galeria {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background-color: #e9bbaa;
+  gap: 40px;
+}
+
+.icono {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=estilo.css.map */
